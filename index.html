@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Quiz</title>
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>Quiz</h1>
+        <div class="question">
+            <p id="question-text">Question 1: What is the capital of France?</p>
+        </div>
+        <div class="answers">
+            <label>
+                <input type="radio" name="answer" value="a"> a) Paris
+            </label>
+            <label>
+                <input type="radio" name="answer" value="b"> b) London
+            </label>
+            <label>
+                <input type="radio" name="answer" value="c"> c) Berlin
+            </label>
+            <label>
+                <input type="radio" name="answer" value="d"> d) Madrid
+            </label>
+        </div>
+        <div class="timer-container">
+            <p id="timer"></p>
+        </div>
+        <button id="next-button">Next</button>
+        <button id="restart-button" style="display: none;">Restart</button>
+    </div>
+    <div class="score-container">
+        <p id="score">Score: 0</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
